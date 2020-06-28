@@ -2,6 +2,9 @@
   "name": "vuexy-react-admin-dashboard",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.6.3",
     "ag-grid-community": "^22.1.1",
@@ -82,6 +85,8 @@
     "yarn": "^1.21.1",
     "yup": "^0.28.1"
   },
+
+  
   "scripts": {
     "start": "react-app-rewired --max_old_space_size=1024 start",
     "build": "react-app-rewired --max_old_space_size=1024 build",
@@ -109,4 +114,6 @@
     ]
   },
   "homepage": ""
+  
 }
+
